@@ -17,7 +17,7 @@ var last = new Date().getTime();
 
 function draw() {
   var now = new Date().getTime(),
-    delta = (now - last)/30;
+    delta = (now - last)/30; // rotation speed
 
   window.requestAnimationFrame(draw);
   
